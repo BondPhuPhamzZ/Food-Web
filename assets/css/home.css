@@ -71,3 +71,137 @@ a {
   gap: 20px;
   margin-left: 224px;
 }
+
+/* ======================= Hero ========================= */
+.hero .body {
+  margin-top: 80px;
+}
+
+.hero .content-block {
+  border-radius: 25px;
+  height: 640px;
+  position: relative;
+  background: #e7fafe;
+  max-width: calc(100% - 660px);
+}
+
+.hero .first-line {
+  top: 50px;
+  left: 50px;
+  position: absolute;
+  background: #fff;
+  height: 45px;
+  width: 156px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.hero .first-line img {
+  width: 24px;
+}
+
+.hero .first-line p {
+  margin-left: 13px;
+  font-size: 1.4rem;
+}
+
+.hero .content-block h1 {
+  position: absolute;
+  max-width: 520px;
+  top: 127px;
+  left: 50px;
+  bottom: 0;
+  font-size: 6.4rem;
+}
+
+.hero .content-block .paragraph {
+  max-width: 520px;
+  position: absolute;
+  font-size: 1.6rem;
+  top: 305px;
+  left: 50px;
+}
+
+.hero .content-block .food-detail {
+  display: flex;
+  align-items: center;
+}
+
+.hero .food-detail .time {
+  width: 139px;
+  padding: 8px;
+  border-radius: 20px;
+  background: rgb(182, 182, 182);
+  top: 391px;
+  left: 50px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.hero .food-detail .time p {
+  margin-left: 10px;
+}
+
+.hero .food-detail .food {
+  width: 119px;
+  padding: 8px;
+  border-radius: 20px;
+  background: rgb(182, 182, 182);
+  position: absolute;
+  top: 391px;
+  left: 205px;
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.hero .food-detail .food p {
+  margin-left: 10px;
+}
+
+.hero .author {
+  top: 535px;
+  left: 50px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 55px;
+}
+
+.hero .author img {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.hero .author p {
+  font-size: 1.6rem;
+  margin-left: 16px;
+}
+
+.hero .author .birth {
+  font-size: 1.4rem;
+  margin-top: 8px;
+}
+
+.hero .author .btn-action {
+  background: black;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  display: flex;
+  /* padding: 18px 36px 18px 37px; */
+  border-radius: 25px;
+  width: 200px;
+  margin-left: 157px;
+}
+
+.hero .author .btn-action p{
+  color: white;
+}
+
+.hero .author .btn-action img{
+  margin-left: 15px;
+}
