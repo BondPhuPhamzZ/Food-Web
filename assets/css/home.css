@@ -26,33 +26,48 @@ a {
 }
 
 /* =========================== Header ========================= */
-.header .body-header {
-  display: flex;
-  margin-top: 40px;
-  margin-left: 80px;
-  align-items: center;
-  /* justify-content: center; */
+
+.header.fixed {
+  position: sticky;
+  /* Lấy 45px trong body trừ cho 5px (khoảng cách muốn dừng lại) */
+  top: -30px;
 }
 
-.body-header img {
-  width: 110px;
-  height: 30px;
+.header .body {
+  display: flex;
+  align-items: center;
+  /* Có thể sửa 40px -> 8px nếu lỗi giao diện */
+  padding: 45px 0px 40px;
+}
+
+.nav {
+  margin-left: 247px;
 }
 
 .nav ul {
   display: flex;
-  margin-left: 217px;
 }
 
 .nav a {
-  color: black;
+  position: relative;
+  color: #5f5b53;
   font-size: 1.6rem;
-  margin-left: 60px;
+  /* Dùng padding tăng vùng bấm => dễ dàng cho người dùng */
+  padding: 8px 30px;
 }
 
-.body-header .icon {
+.nav a:hover {
+  color: #171100;
+  text-shadow: 1px 0 0 currentColor;
+}
+
+.header .logo {
+  width: 130px;
+}
+
+.header .icon {
   width: 22px;
-  height: 18px;
   display: flex;
-  margin-left: 254px;
+  gap: 20px;
+  margin-left: 224px;
 }
