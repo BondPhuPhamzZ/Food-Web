@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* 1 rem = 10px */
+  font-size: 62.5%;
+}
+
+/* Khôi phục lại cỡ chữ mặc định */
+body {
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+}
+
+/* ====================== Common (phần dùng chung) ======================= */
+a {
+  text-decoration: none;
+}
+
+.main-content {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100% - 48px);
+}
+
+/* =========================== Header ========================= */
+.header .body-header {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 80px;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.body-header img {
+  width: 110px;
+  height: 30px;
+}
+
+.nav ul {
+  display: flex;
+  margin-left: 217px;
+}
+
+.nav a {
+  color: black;
+  font-size: 1.6rem;
+  margin-left: 60px;
+}
+
+.body-header .icon {
+  width: 22px;
+  height: 18px;
+  display: flex;
+  margin-left: 254px;
+}
