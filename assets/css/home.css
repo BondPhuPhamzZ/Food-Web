@@ -33,7 +33,7 @@ a {
   top: 0;
   z-index: 1000;
   background-color: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .header .body {
@@ -88,7 +88,7 @@ a {
   position: relative;
   width: 620px;
   background-color: rgb(232, 232, 234);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .hero .first-line {
@@ -208,7 +208,7 @@ a {
   margin-left: 157px;
 }
 
-.hero .author .btn-action:hover{
+.hero .author .btn-action:hover {
   box-shadow: inset 0 0 0 50px rgb(168, 168, 168);
 }
 
@@ -228,7 +228,7 @@ a {
   margin-left: auto;
 }
 
-.hero .main-content .media-block .mini-logo{
+.hero .main-content .media-block .mini-logo {
   position: absolute;
   width: 150px;
   top: 50px;
