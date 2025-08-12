@@ -30,7 +30,10 @@ a {
 .header.fixed {
   position: sticky;
   /* Lấy 45px trong body trừ cho 5px (khoảng cách muốn dừng lại) */
-  top: -30px;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 .header .body {
@@ -75,17 +78,21 @@ a {
 /* ======================= Hero ========================= */
 .hero .body {
   margin-top: 80px;
+  display: flex;
 }
 
+/* ========= hero left =========== */
 .hero .content-block {
-  border-radius: 25px;
+  border-radius: 25px 0px 0px 25px;
   height: 640px;
   position: relative;
-  background: #e7fafe;
-  max-width: calc(100% - 660px);
+  width: 620px;
+  background-color: rgb(232, 232, 234);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 .hero .first-line {
+  border: 2px solid black;
   top: 50px;
   left: 50px;
   position: absolute;
@@ -109,7 +116,7 @@ a {
 
 .hero .content-block h1 {
   position: absolute;
-  max-width: 520px;
+  width: 520px;
   top: 127px;
   left: 50px;
   bottom: 0;
@@ -117,7 +124,7 @@ a {
 }
 
 .hero .content-block .paragraph {
-  max-width: 520px;
+  width: 520px;
   position: absolute;
   font-size: 1.6rem;
   top: 305px;
@@ -163,6 +170,7 @@ a {
 }
 
 .hero .author {
+  width: 163px;
   top: 535px;
   left: 50px;
   position: absolute;
@@ -177,6 +185,7 @@ a {
 }
 
 .hero .author p {
+  width: 100px;
   font-size: 1.6rem;
   margin-left: 16px;
 }
@@ -198,10 +207,25 @@ a {
   margin-left: 157px;
 }
 
-.hero .author .btn-action p{
+.hero .author .btn-action p {
   color: white;
 }
 
-.hero .author .btn-action img{
+.hero .author .btn-action img {
   margin-left: 15px;
+}
+
+/* ============= hero right ============ */
+
+.hero .main-content .media-block {
+  position: relative;
+  max-width: calc(100% - 620px);
+  margin-left: auto;
+}
+
+.hero .main-content .media-block .mini-logo{
+  position: absolute;
+  width: 150px;
+  top: 50px;
+  right: 560px;
 }
