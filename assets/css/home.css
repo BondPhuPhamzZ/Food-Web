@@ -196,6 +196,7 @@ a {
 }
 
 .hero .author .btn-action {
+  cursor: pointer;
   background: black;
   align-items: center;
   justify-content: center;
@@ -205,6 +206,10 @@ a {
   border-radius: 25px;
   width: 200px;
   margin-left: 157px;
+}
+
+.hero .author .btn-action:hover{
+  box-shadow: inset 0 0 0 50px rgb(168, 168, 168);
 }
 
 .hero .author .btn-action p {
