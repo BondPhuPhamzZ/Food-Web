@@ -269,7 +269,7 @@ a {
   cursor: pointer;
 }
 
-.categories .body .first-line .btn-view:hover{
+.categories .body .first-line .btn-view:hover {
   background: var(--btn-bg-hover);
   transform: translateY(-2px);
   box-shadow: var(--btn-shadow-hover);
