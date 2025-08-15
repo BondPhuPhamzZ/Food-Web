@@ -115,6 +115,7 @@ a {
 }
 
 .hero .content-block h1 {
+  font-weight: bold;
   position: absolute;
   width: 520px;
   top: 127px;
@@ -184,7 +185,8 @@ a {
   width: 50px;
 }
 
-.hero .author p {
+.hero .author p:first-child {
+  font-weight: bold;
   width: 100px;
   font-size: 1.6rem;
   margin-left: 16px;
@@ -193,6 +195,7 @@ a {
 .hero .author .birth {
   font-size: 1.4rem;
   margin-top: 8px;
+  margin-left: 16px;
 }
 
 .hero .author .btn-action {
@@ -213,7 +216,9 @@ a {
 }
 
 .hero .author .btn-action p {
+  font-size: 1.4rem;
   color: white;
+  font-weight: bold;
 }
 
 .hero .author .btn-action img {
@@ -234,3 +239,97 @@ a {
   top: 50px;
   right: 560px;
 }
+
+/* ============== categories =============== */
+.categories .body {
+  margin-top: 162px;
+}
+
+.categories .body .first-line {
+  display: flex;
+}
+
+.categories .body .first-line h2 {
+  font-weight: bold;
+  font-size: 4.8rem;
+  margin-right: 842px;
+}
+
+.categories .body .first-line .btn-view {
+  font-size: 1.6rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  width: 200px;
+  background-color: #e7fafe;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.categories .body .food-list {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* chữ và ảnh ở giữa */
+/* Phong cách mới NHANH GỌN - áp dụng với các phần tử giống nhau */
+/* chữ và ảnh ở giữa */
+/* border: inset; */
+
+/* C1 */
+.categories .food-list > div {
+  text-align: center;
+  padding: 10px;
+  width: 180px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8f8f8 100%);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.categories .breakfast h4 {
+  margin-top: 50px;
+}
+
+.categories .vegan h4 {
+  margin-top: 50px;
+}
+
+.categories .meat h4 {
+  margin-top: 50px;
+}
+
+.categories .dessert h4 {
+  margin-top: 50px;
+}
+
+.categories .lunch h4 {
+  margin-top: 50px;
+}
+
+.categories .chocolate h4 {
+  margin-top: 50px;
+}
+/* C2 */
+/* .categories .main-content .body .breakfast {
+  width: 180px;
+  margin: 0 auto;    
+  text-align: center;
+}
+
+.categories .main-content .body .breakfast img {
+  width: 100px;
+}
+
+.categories .main-content .body .vegan {
+  width: 180px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.categories .main-content .body .vegan img {
+  width: 100px;
+} */
+
+/* Tương tự áp dụng với các khối còn lại */
