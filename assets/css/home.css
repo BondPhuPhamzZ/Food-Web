@@ -520,3 +520,184 @@ a {
   left: 594px;
   width: 80px;
 }
+
+/* ======================== check out =========================== */
+.check-out .body {
+  text-align: center;
+  margin-top: 240px;
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    rgb(160, 229, 229),
+    rgb(117, 244, 244)
+  );
+  padding-bottom: 80px;
+}
+
+.check-out h2 {
+  padding-top: 80px;
+  font-size: 4.8rem;
+  font-weight: bold;
+}
+
+.check-out p {
+  margin-top: 24px;
+  color: rgb(135, 118, 118);
+}
+
+.check-out .img-list {
+  display: flex;
+  gap: 20px;
+  margin-top: 80px;
+}
+
+.check-out .img-list img {
+  width: 290px;
+}
+
+.check-out .img-list img:first-child {
+  margin-left: 20px;
+}
+
+/* ==== nút bấm ===== checkout */
+.check-out .btn-visit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  background-color: black;
+  color: white;
+  border-radius: 16px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 81px;
+  width: 229px;
+  height: 60px;
+  font-weight: bold;
+}
+
+.check-out .btn-visit img {
+  width: 22px;
+}
+
+.check-out .btn-visit p {
+  /* xóa margin mặc định của thẻ p */
+  margin: 0;
+  color: white;
+}
+
+.check-out .btn-visit:hover {
+  cursor: pointer;
+  background: rgb(40, 40, 40);
+  transform: translateY(-2px);
+  box-shadow: var(--btn-shadow-hover);
+  border-color: #cbd5e1;
+}
+
+/* ================= try this delicious ============== */
+.delicious .first-logan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delicious .first-logan h2 {
+  padding-top: 160px;
+  /* width: 507px; */
+  font-size: 4.8rem;
+  font-weight: bold;
+}
+
+.delicious .first-logan p {
+  padding-top: 160px;
+  /* width: 620px; */
+  color: rgb(146, 145, 145);
+  font-size: 1.6rem;
+  margin-left: 153px;
+}
+
+.delicious .first-img-line {
+  display: flex;
+  gap: 40px;
+}
+
+.delicious .second-img-line {
+  display: flex;
+  gap: 40px;
+}
+
+.delicious .image {
+  margin-top: 80px;
+}
+
+.delicious .image .main-img {
+  width: 290px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.delicious .image .hear-will {
+  width: 24px;
+}
+
+.delicious h4 {
+  margin-top: 16px;
+  font-weight: bold;
+  font-size: 1.8rem;
+  width: 290px;
+}
+
+.delicious .time-type {
+  margin-top: 24px;
+  display: flex;
+}
+
+.delicious .time {
+  display: flex;
+  align-items: center;
+}
+
+.delicious .time img {
+  width: 24px;
+  margin-right: 13px;
+}
+
+.delicious .food-type {
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.delicious .food-type img {
+  width: 24px;
+  margin-right: 13px;
+}
+
+.delicious .first-img-line {
+  display: flex;
+}
+
+/* cha của main img và heart */
+.delicious .img-box {
+  position: relative;
+}
+
+.delicious .img-box .hear-will {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.delicious .img-box .hear-will:hover {
+  transform: scale(1.2);
+  filter: brightness(0) saturate(100%) invert(20%) sepia(100%) saturate(500%)
+    hue-rotate(-10deg);
+  transition: 0.3s ease;
+}
