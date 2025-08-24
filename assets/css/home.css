@@ -632,6 +632,13 @@ a {
 
 .delicious .image {
   margin-top: 80px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+}
+
+.delicious .image:hover {
+  transform: translateY(-5px); /* nổi khối lên */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .delicious .image .main-img {
