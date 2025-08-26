@@ -532,6 +532,7 @@ a {
     rgb(117, 244, 244)
   );
   padding-bottom: 80px;
+  border-radius: 25px;
 }
 
 .check-out h2 {
@@ -707,4 +708,68 @@ a {
   filter: brightness(0) saturate(100%) invert(20%) sepia(100%) saturate(500%)
     hue-rotate(-10deg);
   transition: 0.3s ease;
+}
+
+/* =============================== inbox ================================ */
+.inbox .body {
+  position: absolute;
+  border-radius: 25px;
+  margin-top: 160px;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  padding-bottom: 80px;
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    rgb(160, 229, 229),
+    rgb(117, 244, 244)
+  );
+}
+
+.inbox h2 {
+  padding-top: 80px;
+  font-weight: bold;
+  font-size: 4.8rem;
+}
+
+.inbox p {
+  width: 620px;
+  margin-left: 330px;
+  padding-top: 24px;
+  font-size: 1.6rem;
+  color: gray;
+}
+
+.inbox .write-here {
+  width: 500px;
+  margin-top: 64px;
+  display: flex;
+  background-color: #ffff;
+  border-radius: 40px;
+  margin-left: 400px;
+}
+
+.inbox .write-here p {
+  font-size: 1.4rem;
+  margin-left: 32px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.inbox .write-here .btn-sub {
+  width: 400px;
+  border-radius: 30px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.inbox .write-here .btn-sub:hover {
+  transform: translateY(-5px); /* nổi khối lên */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
