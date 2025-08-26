@@ -25,6 +25,14 @@ a {
   max-width: calc(100% - 48px);
 }
 
+/* thêm responsive cho mobile */
+@media (max-width: 768px) {
+  .main-content {
+    width: 100%;
+    padding: 0 16px;
+  }
+}
+
 /* =========================== Header ========================= */
 
 .header.fixed {
@@ -299,7 +307,7 @@ a {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
-.categories .breakfast h4 {
+/* .categories .breakfast h4 {
   margin-top: 50px;
 }
 
@@ -321,7 +329,13 @@ a {
 
 .categories .chocolate h4 {
   margin-top: 50px;
+} */
+
+/* sửa phần code lặp mt50px */
+.categories .food-list h4 {
+  margin-top: 50px;
 }
+
 /* C2 */
 /* .categories .main-content .body .breakfast {
   width: 180px;
@@ -406,7 +420,6 @@ a {
 }
 
 .recipes .time-type p {
-  font-weight: medium;
   color: rgb(135, 118, 118);
 }
 
@@ -734,8 +747,6 @@ a {
 }
 
 .inbox p {
-  width: 620px;
-  margin-left: 330px;
   padding-top: 24px;
   font-size: 1.6rem;
   color: gray;
@@ -751,8 +762,8 @@ a {
 }
 
 .inbox .write-here p {
+  width: 480px;
   font-size: 1.4rem;
-  margin-left: 32px;
   margin: 20px;
   padding: 10px;
 }
@@ -772,4 +783,53 @@ a {
 .inbox .write-here .btn-sub:hover {
   transform: translateY(-5px); /* nổi khối lên */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* ===================== footer ======================== */
+footer .body-footer {
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .body-footer .logo p {
+  margin-top: 16px;
+}
+
+footer .nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+footer .vecto {
+  margin: 48px 0;
+  width: 100%;
+}
+
+footer .footer-end {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+
+footer .footer-end p {
+  margin-bottom: 50px;
+}
+
+footer .footer-end .icon {
+  display: flex;
+  gap: 20px;
+}
+
+/* responsive cho footer */
+@media (max-width: 768px) {
+  footer .body-footer,
+  footer .footer-end {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
 }
